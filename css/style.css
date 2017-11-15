@@ -28,11 +28,12 @@ body {
     box-shadow: 0 0 15px #9E9E9E;
 }
 .login_form .wrapper {
-    padding: 45px;
+    padding: 45px 45px 37px 45px;
 }
 .login_form .title {
     font-size: 24px;
     font-weight: bold;
+    padding-top: 3px;
 }
 .login_form input {
     border-color: #d0dce7;
@@ -41,41 +42,51 @@ body {
     font-size: 16px;
     font-weight: bold;
     width: 100%;
-    margin: 0 0 40px 0;
+    margin: 5px 0 35px 0;
     padding: 2px 0 8px 0;
     line-height: 130%;
 }
 .login_form label {
     color: #a6b0b7;
+    font-size: 14px;
 }
 .login_form input:focus {
     border-color: rgb(16, 108, 200);
     border-width: 0 0 2px;
     padding: 2px 0 7px 0;
 }
+.login_form input.leap {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
 .login_form label.notFocused {
     position: absolute;
     transition: transform .4s;
-    transform: scale(1) translate(0, 5px);
+    transform: scale(1) translate(4px, 0px);
     cursor: text;
+    margin-top: 19px;
+    font-size: 16px;
 }
 .login_form label.focused {
     position: absolute;
     transition: transform .4s;
     transform: scale(0.8) translate(-10px, -24px);
     color: rgb(16, 108, 200);
+    margin-top: 19px;
 }
 .login_form label.entered {
     position: absolute;
     transition: transform .4s;
     transform: scale(0.8) translate(-10px, -24px);
     color: #a6b0b7;
+    margin-top: 19px;
 }
 .login_form label.notEntered {
     position: absolute;
     transition: transform .4s;
     transform: scale(0.8) translate(-10px, -24px);
     color: red;
+    margin-top: 19px;
 }
 .login_form label.err {
     color: red;
@@ -84,6 +95,7 @@ body {
     border-color: red;
 }
 .login_form input[type="submit"] {
+    font-size: 15px;
     cursor: pointer;
     border: none;
     color: #fff;
@@ -103,8 +115,8 @@ body {
 .login_form .sign {
     font-size: 14px;
     color: #a8b8c4;
-    padding-bottom: 20px;
-    line-height: 140%;
+    padding: 3px 12px 27px 12px;
+    line-height: 170%;
 }
 .login_form .sign a {
     color: #007ee5;
