@@ -1,10 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-image: none">
 <head>
     <meta charset="UTF-8">
     <title>Profile page -- Slotin Dima test task for VisualCraft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/mobile.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/scripts_in_profile.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 </head>
-<body>
-
+<body class="body-profile">
+    <div class="header">
+        <a class="logout-btn" href="#">LOG OUT</a>
+        <div class="fix"></div>
+        <div class="upload-image">
+            <button type="button">Upload Cover Image</button>
+            <span class="ion-ios-camera"></span>
+            <input type="file">
+        </div>
+        <div class="photo-user">
+            <img src="img/profile_image.jpg">
+        </div>
+        <div class="contact_information">
+            <p class="name">Jessica Parker</p>
+            <p class="locate ion-ios-location-outline"><span>Newport Beach, CA</span></p>
+            <p class="phone ion-ios-telephone-outline"><span>(949) 325 - 68594</span></p>
+        </div>
+        <div class="reviews_stars">
+            <p class="stars">
+                <span class="ion-android-star"></span>
+                <span class="ion-android-star"></span>
+                <span class="ion-android-star"></span>
+                <span class="ion-android-star"></span>
+                <span class="ion-android-star-outline"></span>
+            </p>
+            <p class="reviews"><span>6</span>Reviews</p>
+        </div>
+        <div class="fix"></div>
+        <div class="wrapper-menu">
+            <div class="sub-header ">
+                <div class="swipe-tabs">
+                    <div class="swipe-tab">About</div>
+                    <div class="swipe-tab">Settings</div>
+                    <div class="swipe-tab">Option1</div>
+                    <div class="swipe-tab">Option2</div>
+                    <div class="swipe-tab">Option3</div>
+                </div>
+            </div>
+            <div class="main-container">
+                <div class="swipe-tabs-container ">
+                    <div class="swipe-tab-content">
+                        <h2>Profile info</h2>
+                        <p class="username">Jessica Parker</p>
+                        <p class="site">www.seller.com</p>
+                        <p class="phone-number">(949) 325 - 68594</p>
+                        <p class="adress">Newport Beach, CA </p>
+                    </div>
+                    <div class="swipe-tab-content">Tab 2</div>
+                    <div class="swipe-tab-content">Tab 3</div>
+                    <div class="swipe-tab-content">Tab 4</div>
+                    <div class="swipe-tab-content">Tab 5</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
