@@ -32,6 +32,140 @@
         bottom: 0;
         border-radius: 0;
     }
+    .logout-btn {
+        border: 0;
+        margin-top: 0;
+    }
+    .body-profile .header {
+        background: #f5f8f9;
+        width: 100%;
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .upload-image {
+        display: none;
+    }
+    .photo-user {
+        width: 218px;
+        margin: 0 auto;
+        float: none;
+        height: auto;
+        margin-top: 10px;
+    }
+    .contact_information .name {
+        text-align: center;
+        padding-top: 15px;
+    }
+    .photo-user img {
+        position: relative;
+    }
+    .contact_information, .photo-user {
+        float: none;
+    }
+    .contact_information .locate, .contact_information .phone {
+        text-align: left;
+        padding-left: 20px;
+    }
+    .contact_information .ion-ios-telephone-outline:before {
+        margin-right: 14px;
+    }
+    .reviews_stars {
+        float: none;
+        padding-top: 0;
+        margin-left: 20px;
+    }
+    .ion-android-star:before, .ion-android-star-outline:before {
+        color: #007ee5;
+    }
+    .reviews_stars .stars, .reviews_stars .reviews {
+        text-align: left;
+    }
+    .reviews_stars .stars, .reviews_stars .reviews {
+        float: none;
+    }
+    .reviews_stars .reviews {
+        padding-left: 0;
+    }
+    .wrapper-menu {
+        padding-left: 0;
+        background: #fff;
+        margin-top: 10px;
+    }
+    .wrapper-content {
+        width: 100%;
+    }
+    .wrapper-content h2 {
+        font-size: 20px;
+        padding: 3px 6px 28px 6px;
+    }
+    #edit-name, #edit-adress, #edit-number, #edit-site {
+        display: none;
+    }
+    .swipe-tab-content .edited {
+        background: none;
+    }
+    #edit-in-mobile {
+        display: inline-block;
+        float: right;
+        position: relative;
+    }
+    .sub-header {
+        min-width: 320px;
+        width: 100%;
+        float: none;
+    }
+    .wrapper-folowers {
+        display: none;
+        float: none;
+    }
+    #dialog-form-mobile h2 {
+        font-weight: normal;
+        font-size: 20px;
+        padding: 0 6px 28px 0;
+    }
+    #dialog-form-mobile label {
+        display: block;
+        font-size: 12px;
+        padding: 5px 0;
+        color: #a6b0b7;
+        text-transform: uppercase;
+    }
+    #dialog-form-mobile input {
+        border-color: #d0dce7;
+        border-width: 0 0 1px;
+        outline: none;
+        font-size: 16px;
+        font-weight: normal;
+        width: 100%;
+        margin: 5px 0 25px 0;
+        padding: 2px 0 8px 0;
+        line-height: 130%;
+        transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        border-radius: 0;
+    }
+    #dialog-form-mobile button {
+        color: #007ee5;
+        text-decoration: none;
+        border: 1px solid #007ee5;
+        padding: 7px 20px;
+        border-radius: 2px;
+        font-weight: bold;
+        font-size: 12px !important;
+        float: right;
+        text-transform: uppercase;
+        background: #ffffff;
+        margin-top: 23px;
+        margin-right: 22px;
+        transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+    }
+
+
 }
 @media screen and (max-height: 320px) and (orientation: landscape) {
     .login_form input[type="submit"] {

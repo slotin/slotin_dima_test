@@ -58,6 +58,7 @@ $(function(){
 
     $swipeTabs.on('click', function(event) {
         // gets index of clicked tab
+        $(".ui-dialog-content").dialog("close");
         currentIndex = $(this).data('slick-index');
         $swipeTabs.removeClass(activeTabClassName);
         $('.swipe-tab[data-slick-index=' + currentIndex +']').addClass(activeTabClassName);
@@ -71,4 +72,8 @@ $(function(){
         $swipeTabs.removeClass(activeTabClassName);
         $('.swipe-tab[data-slick-index=' + currentIndex + ']').addClass(activeTabClassName);
     });
+
+
+    /// popup window
+    return $('#adress-user-label').text('test');
 });
