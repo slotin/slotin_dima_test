@@ -37,11 +37,21 @@ $(function(){
     $swipeTabsContainer.slick({
         //slidesToShow: 3.25,
         slidesToShow: 6,
-        //slidesToScroll: 1,
+        slidesToScroll: 1,
         arrows: false,
         infinite: false,
         swipeToSlide: true,
-        touchThreshold: 10
+        touchThreshold: 10,
+        responsive: [
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            }
+        ]
     });
 
     $swipeTabsContentContainer.slick({
@@ -75,5 +85,6 @@ $(function(){
 
 
     /// popup window
-    return $('#adress-user-label').text('test');
+    //return $('#adress-user-label').text('test');
+
 });

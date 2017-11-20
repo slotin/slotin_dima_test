@@ -218,6 +218,35 @@ $( function() {
         //dialogMobile.dialog( "open" );
 
     });
+
+    $("#formCheckPassword").validate({
+        errorElement: "span",
+        rules: {
+            oldPassword: {
+                required: true
+            } ,
+            newPassword: {
+                required: true,
+                minlength: 6,
+                maxlength: 20
+            } ,
+
+            cfmPassword: {
+                equalTo: "#newPassword",
+                minlength: 6,
+                maxlength: 20
+            }
+
+
+        },
+        messages:{
+            newPassword: {
+                required:"the password is required"
+
+            }
+        }
+
+    });
 } );
 
 $("#phoneNumber").mask("(999) 999-9999");
@@ -234,4 +263,6 @@ $("#phoneNumber").on("blur", function() {
 
         $(this).val( first + '-' + lastfour );
     }
+
 });
+
